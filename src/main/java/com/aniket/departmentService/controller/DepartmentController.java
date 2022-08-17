@@ -22,7 +22,7 @@ public class DepartmentController {
     }
 
     @PostMapping("/{Id}")
-    public Department findDepartmentById(Long departmentId)
+    public Department findDepartmentByMyId(Long departmentId)
     {
 
         return departmentService.findDepartmentById(departmentId);
